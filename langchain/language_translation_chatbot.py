@@ -76,7 +76,7 @@ class LanguageTranslationChatbotStreamlit:
         input_text = st.text_input("Enter text to translate:")
 
         # File uploader
-        uploaded_file = st.file_uploader("Upload a PDF or text file", type=["pdf", "txt"])
+        uploaded_file = st.file_uploader("Upload a text file", type=["txt"])
 
         # Language selections
         src_lang = st.selectbox("Select source language:", list(LANGUAGES.values()), index=list(LANGUAGES.values()).index("english"))
