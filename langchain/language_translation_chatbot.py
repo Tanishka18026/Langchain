@@ -70,7 +70,7 @@ class LanguageTranslationChatbotStreamlit:
             </style>
         """, unsafe_allow_html=True)
 
-        st.title("Language Translation Chatbot")
+        st.title("Language Translation")
 
         # Input text
         input_text = st.text_input("Enter text to translate:")
