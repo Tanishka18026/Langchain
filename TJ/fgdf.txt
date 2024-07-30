@@ -1,0 +1,15 @@
+class Demo
+{
+	public void Func()
+	{
+		
+	}
+}
+class 
+{
+	public static void main()
+	{
+		Demo obj=new Demo();
+		obj.Func();
+	}
+}
